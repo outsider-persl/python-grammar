@@ -7,20 +7,26 @@ print("Hello, World!")
 # input("Press Enter to continue...")
 # print("Goodbye, World!")
 
-name = input("What is your name? \n")
-print("Hello, " + name + "!")
+# name = input("What is your name? \n")
+# print("Hello, " + name + "!")
 
 # Ask the user for their name
-name = input("What's your name? ")
+# name = input("What's your name? ")
 
 # The print function automatically includes a piece of code end='\n'
 # we can change this to end='' to prevent the print function from adding a new line
-print("hello,", end="")
-print(name)
+# print("hello,", end="")
+# print(name)
 
 # we can also use the escape character '\' to escape special characters
-print('hello, "friend"')
+# print('hello, "friend"')
 
 # Formatting Strings
-name = name.strip()  # removes leading and trailing whitespaces
-print(f"hello, {name}")
+# print(f"before, {name}","after")
+# name = name.strip()  # remove leading and trailing whitespaces
+# print(f"before, {name}","after")
+
+title = "outsider"
+title = title.title()  # capitalize the first letter of each word
+print(title)
+
